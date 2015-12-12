@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NipponColors</string>
+    <string name="C">C</string>
+    <string name="M">M</string>
+    <string name="Y">Y</string>
+    <string name="K">K</string>
+    <string name="R">R</string>
+    <string name="G">G</string>
+    <string name="B">B</string>
+</resources>

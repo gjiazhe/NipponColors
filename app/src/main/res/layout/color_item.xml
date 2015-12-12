@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp">
+
+    <View
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#DC9FB4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/color"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+        <com.gjiazhe.ggprogressbar.GGArcProgressBar
+            android:id="@+id/c_ring"
+            style="@style/itme_cmyk_ring"/>
+        <com.gjiazhe.ggprogressbar.GGArcProgressBar
+            android:id="@+id/m_ring"
+            style="@style/itme_cmyk_ring"
+            android:layout_below="@id/c_ring"/>
+        <com.gjiazhe.ggprogressbar.GGArcProgressBar
+            android:id="@+id/y_ring"
+            style="@style/itme_cmyk_ring"
+            android:layout_below="@+id/m_ring"/>
+        <com.gjiazhe.ggprogressbar.GGArcProgressBar
+            android:id="@+id/k_ring"
+            style="@style/itme_cmyk_ring"
+            android:layout_below="@+id/y_ring"/>
+
+        <com.gjiazhe.nipponcolors.widget.VerticalTextView
+            android:id="@+id/color_id"
+            style="@style/vertical_text_default"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:text="001"/>
+        <TextView
+            android:id="@+id/color_name_ja"
+            style="@style/vertical_text_default"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:ems="1"
+            android:text="撫子"
+            android:gravity="right"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+        <com.gjiazhe.nipponcolors.widget.VerticalTextView
+            android:id="@+id/rgb_16"
+            style="@style/vertical_text_default"
+            android:text="#DC9FB4"
+            android:textSize="10sp"/>
+
+        <com.gjiazhe.ggprogressbar.GGVerticalProgressBar
+            android:id="@+id/bar_b"
+            android:layout_toRightOf="@+id/rgb_16"
+            style="@style/item_rgb_bar"
+            android:layout_marginLeft="6dp"/>
+        <com.gjiazhe.ggprogressbar.GGVerticalProgressBar
+            android:id="@+id/bar_g"
+            android:layout_toRightOf="@+id/bar_b"
+            style="@style/item_rgb_bar"/>
+        <com.gjiazhe.ggprogressbar.GGVerticalProgressBar
+            android:id="@+id/bar_r"
+            android:layout_toRightOf="@id/bar_g"
+            style="@style/item_rgb_bar"/>
+
+        <com.gjiazhe.nipponcolors.widget.VerticalTextView
+            android:id="@+id/color_name_en"
+            style="@style/vertical_text_default"
+            android:text="NADESHIKO"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>

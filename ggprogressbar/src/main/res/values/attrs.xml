@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GGProgressBar">
+        <attr name="gpb_progress" format="integer"/>
+        <attr name="gpb_max" format="integer"/>
+        <attr name="gpb_reached_bar_color" format="color"/>
+        <attr name="gpb_unreached_bar_visibility" format="boolean"/>
+        <attr name="gpb_unreached_bar_color" format="color"/>
+        <attr name="gpb_text_visibility" format="boolean"/>
+        <attr name="gpb_text_size" format="dimension"/>
+        <attr name="gpb_text_color" format="color"/>
+        <attr name="gpb_text_offset" format="dimension"/>
+        <attr name="gpb_duration" format="integer"/>
+        <attr name="gpb_prefix" format="string"/>
+        <attr name="gpb_suffix" format="string"/>
+
+        <!-- for Horizontal Progress Bar -->
+        <attr name="gpb_reached_bar_height" format="dimension"/>
+        <attr name="gpb_unreached_bar_height" format="dimension"/>
+
+        <!-- for Vertical Progress Bar and Circular Progress Bar -->
+        <attr name="gpb_reached_bar_width" format="dimension"/>
+        <attr name="gpb_unreached_bar_width" format="dimension"/>
+
+        <!-- for Arc Progress Bar -->
+        <attr name="gpb_start_angle" format="float"/>
+        <attr name="gpb_radius" format="dimension"/>
+    </declare-styleable>
+
+</resources>

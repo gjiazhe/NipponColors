@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="FullScreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="itme_cmyk_ring">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="gpb_text_visibility">false</item>
+        <item name="gpb_unreached_bar_width">8dp</item>
+        <item name="gpb_reached_bar_width">8dp</item>
+        <item name="gpb_reached_bar_color">@color/reachedBarColor</item>
+        <item name="gpb_unreached_bar_color">@color/uReachedBarColor</item>
+        <item name="gpb_start_angle">-90</item>
+    </style>
+
+    <style name="item_rgb_bar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="gpb_text_visibility">false</item>
+        <item name="gpb_max">255</item>
+        <item name="gpb_reached_bar_color">@color/reachedBarColor</item>
+        <item name="gpb_unreached_bar_color">@color/uReachedBarColor</item>
+        <item name="gpb_unreached_bar_width">2dp</item>
+        <item name="gpb_reached_bar_width">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="vertical_text_default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <style name="info_cmyk_ring">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="gpb_unreached_bar_width">4dp</item>
+        <item name="gpb_reached_bar_width">4dp</item>
+        <item name="gpb_unreached_bar_color">@color/uReachedBarColor</item>
+        <item name="gpb_start_angle">-90</item>
+        <item name="gpb_suffix"></item>
+        <item name="gpb_text_size">20sp</item>
+    </style>
+
+    <style name="info_division">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/division</item>
+    </style>
+
+    <style name="info_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="info_RGB_number">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+</resources>

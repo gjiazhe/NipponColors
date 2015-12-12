@@ -1,0 +1,138 @@
+<resources>
+
+    <style name="GG_ProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#553F51B5</item>
+        <item name="gpb_reached_bar_color">#FF3F51B5</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FF3F51B5</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Passing_Green">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#5570A800</item>
+        <item name="gpb_reached_bar_color">#FF70A800</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FF70A800</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Beauty_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#55FF3D7F</item>
+        <item name="gpb_reached_bar_color">#FFFF3D7F</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FFFF3D7F</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Warning_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#33E74C3C</item>
+        <item name="gpb_reached_bar_color">#FFE74C3C</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FFE74C3C</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Relax_Blue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#556DBCDB</item>
+        <item name="gpb_reached_bar_color">#FF6DBCDB</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FF6DBCDB</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Grace_Yellow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#55FFC73B</item>
+        <item name="gpb_reached_bar_color">#FFFFC73B</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FFFFC73B</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Funny_Orange">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#55FF530D</item>
+        <item name="gpb_reached_bar_color">#FFFF530D</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FFFF530D</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="GG_ProgressBar_Twinkle_Night">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="gpb_max">100</item>
+        <item name="gpb_progress">0</item>
+
+        <item name="gpb_unreached_bar_color">#55ECF0F1</item>
+        <item name="gpb_reached_bar_color">#FFECF0F1</item>
+
+        <item name="gpb_text_size">10sp</item>
+        <item name="gpb_text_color">#FFECF0F1</item>
+
+        <item name="gpb_reached_bar_height">1.5dp</item>
+        <item name="gpb_unreached_bar_height">0.75dp</item>
+    </style>
+</resources>
