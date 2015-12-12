@@ -42,11 +42,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9930111a-58dc-48dd-ab47-6c34fe0040b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/launch_landscape.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/launch_landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nippon colors.sketch" afterPath="$PROJECT_DIR$/nippon colors.sketch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9930111a-58dc-48dd-ab47-6c34fe0040b9" name="Default" comment="" />
     <ignored path="NipponColors.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
