@@ -13,27 +13,29 @@ import android.widget.TextView;
 public class VerticalTextView extends TextView {
     private Rect bounds = new Rect();
     private TextPaint textPaint;
-    private int color;
 
     public VerticalTextView(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public VerticalTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        color = getCurrentTextColor();
+        setupPaint();
+    }
+
+    private void setupPaint() {
+        textPaint = getPaint();
+        textPaint.setColor(getCurrentTextColor());
+        textPaint.getTextBounds((String) getText(), 0, getText().length(), bounds);
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        textPaint = getPaint();
-        textPaint.getTextBounds((String) getText(), 0, getText().length(), bounds);
         setMeasuredDimension((int) (bounds.height() + textPaint.descent()), bounds.width());
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
-        textPaint.setColor(color);
         canvas.rotate(90, 0, bounds.height());
         canvas.drawText((String) getText(), -bounds.height(), bounds.height() - textPaint.descent(), textPaint);
     }

@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.gjiazhe.ggprogressbar.GGArcProgressBar;
 import com.gjiazhe.ggprogressbar.GGVerticalProgressBar;
 import com.gjiazhe.nipponcolors.model.NipponColor;
+import com.gjiazhe.nipponcolors.widget.VerticalTextView;
 
 import java.util.List;
 
@@ -87,10 +88,10 @@ public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ColorViewHol
 
     class ColorViewHolder extends RecyclerView.ViewHolder {
         View vColor;
-        TextView tvId;
+        VerticalTextView tvId;
         TextView tvName_jp;
-        TextView tvName_en;
-        TextView tvRGB_16;
+        VerticalTextView tvName_en;
+        VerticalTextView tvRGB_16;
         GGArcProgressBar ring_c;
         GGArcProgressBar ring_m;
         GGArcProgressBar ring_y;
@@ -101,10 +102,10 @@ public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ColorViewHol
         public ColorViewHolder(View itemView) {
             super(itemView);
             vColor = itemView.findViewById(R.id.color);
-            tvId = (TextView) itemView.findViewById(R.id.color_id);
+            tvId = (VerticalTextView) itemView.findViewById(R.id.color_id);
             tvName_jp = (TextView) itemView.findViewById(R.id.color_name_ja);
-            tvName_en = (TextView) itemView.findViewById(R.id.color_name_en);
-            tvRGB_16 = (TextView) itemView.findViewById(R.id.rgb_16);
+            tvName_en = (VerticalTextView) itemView.findViewById(R.id.color_name_en);
+            tvRGB_16 = (VerticalTextView) itemView.findViewById(R.id.rgb_16);
             ring_c = (GGArcProgressBar) itemView.findViewById(R.id.c_ring);
             ring_m = (GGArcProgressBar) itemView.findViewById(R.id.m_ring);
             ring_y = (GGArcProgressBar) itemView.findViewById(R.id.y_ring);
